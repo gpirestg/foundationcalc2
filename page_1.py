@@ -9,7 +9,7 @@ def run():
     st.subheader("Loaded Configuration")
     config = configparser.ConfigParser()
     #cfg_path = "settings.cfg"
-    cfg_path = "/mount/src/foundationcalc/structural_app2/settings.cfg"
+    cfg_path = "foundationcalc2/settings.cfg"
 
     if os.path.exists(cfg_path):
         config.read(cfg_path)
