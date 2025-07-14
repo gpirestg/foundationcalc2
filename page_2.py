@@ -46,7 +46,7 @@ def run():
                 # === Update settings.cfg with selected file ===
                 config = configparser.ConfigParser()
                 #cfg_path = "settings.cfg"
-                cfg_path = "/mount/src/foundationcalc/structural_app2/settings.cfg"
+                cfg_path = "/mount/src/foundationcalc2/settings.cfg"
 
                 # Create new config or load existing one
                 config.read(cfg_path)
