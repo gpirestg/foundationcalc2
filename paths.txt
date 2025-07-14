@@ -1,12 +1,6 @@
 Config file path:
-cfg_path = "/mount/src/foundationcalc/structural_app2/settings.cfg"
+cfg_path = "/mount/src/foundationcalc2/settings.cfg"
 Template file path:
 file_path = "/mount/src/foundationcalc/structural_app2/loads_template/"
 Output file path:
 optimised_output_path = "/mount/src/foundationcalc/structural_app2/output/optimised_result.xlsx"
-
-﻿gekko==1.2.1
-numpy==2.2.2
-openpyxl==3.1.5
-pandas==2.2.3
-streamlit==1.46.1
