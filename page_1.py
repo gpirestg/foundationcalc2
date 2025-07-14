@@ -80,11 +80,13 @@ def run():
             ###################################################################################################################
             # File paths and global variables
             #file_path = r'C:\Users\GDP\OneDrive - Tony Gee and Partners LLP\Documents\Automation\__2025__Digital__\DEV - WIP\P&E Streamlit Toms App\structural_app2\loads_template'
-            file_path = "/mount/src/foundationcalc2/loads_template/"
+            #file_path = "/mount/src/foundationcalc2/loads_template/" #streamlit.io
+            file_path = "loads_template/" #render.com
             #loads_file_path = r'C:\Users\GDP\OneDrive - Tony Gee and Partners LLP\Documents\Automation\__2025__Digital__\DEV - WIP\P&E Streamlit Toms App\Rev01\foundation_loadsv2.xlsx'
             loads_file_path = os.path.join(file_path, template)
             #optimised_output_path = r'C:\Users\GDP\OneDrive - Tony Gee and Partners LLP\Documents\Automation\__2025__Digital__\DEV - WIP\P&E Streamlit Toms App\structural_app2\output\optimised_result.xlsx'
-            optimised_output_path = "/mount/src/foundationcalc2/output/optimised_result.xlsx"
+            #optimised_output_path = "/mount/src/foundationcalc2/output/optimised_result.xlsx" #streamlit.io
+            optimised_output_path = "output/optimised_result.xlsx" #render.com
             #loads_sheet_name = 'Loading Summary'
             loads_sheet_name = sheet
             ###################################################################################################################
