@@ -8,11 +8,11 @@ def run():
 
     # Define where your template files are located
     #TEMPLATE_FOLDER = r"C:\Users\GDP\OneDrive - Tony Gee and Partners LLP\Documents\Automation\__2025__Digital__\DEV - WIP\P&E Streamlit Toms App\structural_app2\loads_template"
-    TEMPLATE_FOLDER = "/mount/src/foundationcalc/structural_app2/loads_template/"
+    TEMPLATE_FOLDER = "/mount/src/foundationcalc2/loads_template/"
 
     # === Load TEMPLATE from settings.cfg ===
     #cfg_path = "settings.cfg"
-    cfg_path = "/mount/src/foundationcalc/structural_app2/settings.cfg"
+    cfg_path = "/mount/src/foundationcalc2/settings.cfg"
     config = configparser.ConfigParser()
 
     if not os.path.exists(cfg_path):
