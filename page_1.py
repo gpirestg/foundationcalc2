@@ -10,7 +10,7 @@ def run():
     config = configparser.ConfigParser()
     #cfg_path = "settings.cfg"
     #cfg_path = "/mount/src/foundationcalc2/settings.cfg" #streamlit.io
-    cfg_path = "foundationcalc2/settings.cfg" #render.com
+    cfg_path = "settings.cfg" #render.com
 
     if os.path.exists(cfg_path):
         config.read(cfg_path)
